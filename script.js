@@ -20,6 +20,10 @@ $(document).ready(function(){
 		$("#osurfing").hide();
 		$("#obmx").hide();
 		$("#oeat").hide();
+		$("#lowen").hide();
+		$("#ldavid").hide();
+		$("#levander").hide();
+		$("#lpierce").hide();
 		$("#phappy").hide();
 		$("#pangry").hide();
 		$("#ehappy").hide();
@@ -229,5 +233,55 @@ $(document).ready(function(){
 		$("#obmx").hide();
 		$("#oeat").hide();
 		$("#oangry").show();
+	});
+	
+	
+	$("#p6").click(function() {
+		$("h1").text("Whats Luis's Favorite friend?");
+		$("#lowen").show();
+		$("#ldavid").show();
+		$("#levander").show();
+		$("#lpierce").show();
+		$("#p2").hide();
+		$("#p3").hide();
+		$("#p4").hide();
+		$("#p5").hide();
+		$("#p6").hide();
+	});
+	
+	$("#lowen").click(function() {
+		$("h1").text("correct!");
+		$("#lowen").hide();
+		$("#ldavid").hide();
+		$("#levander").hide();
+		$("#lpierce").hide();
+		$("#lhappy").show();
+	});
+	
+	$("#ldavid").click(function() {
+		$("h1").text("correct!");
+		$("#lowen").hide();
+		$("#ldavid").hide();
+		$("#levander").hide();
+		$("#lpierce").hide();
+		$("#lhappy").show();
+	});
+	
+	$("#levander").click(function() {
+		$("h1").text("correct!");
+		$("#lowen").hide();
+		$("#ldavid").hide();
+		$("#levander").hide();
+		$("#lpierce").hide();
+		$("#lhappy").show();
+	});
+	
+	$("#lpierce").click(function() {
+		$("h1").text("correct!");
+		$("#lowen").hide();
+		$("#ldavid").hide();
+		$("#levander").hide();
+		$("#lpierce").hide();
+		$("#lhappy").show();
 	});
 });
