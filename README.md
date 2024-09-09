@@ -1,2 +1,2 @@
 # Friends Quiz
-https://zensquiddy.github.io/Quiz-Web-App
+https://www.zensquiddy.github.io/Quiz-Web-App
